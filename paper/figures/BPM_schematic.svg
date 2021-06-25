@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="165.9971mm"
+   height="192.51688mm"
+   viewBox="0 0 165.9971 192.51688"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="BPM_schematic.svg"
+   inkscape:export-filename="/home/kevin/data/projects/Big_Pond_Model/paper/NewPrairieModel/figures/BPM_schematic.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-259.88462"
+     inkscape:cy="380.91169"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.3574029,-5.9512521)">
+    <path
+       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1.96500003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.63095,188.52083 c 0,0 -87.323741,-30.08173 -103.565475,-60.85417 C 23.823741,96.894222 23.592842,57.524936 46.113094,39.220237 68.633346,20.915538 105.01303,24.001018 130.77976,50.937498 c 25.76673,26.93648 12.85119,137.583332 12.85119,137.583332 z"
+       id="path815"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzc" />
+    <ellipse
+       style="fill:#ffff00;fill-opacity:1;stroke:#1a1a1a;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path838"
+       cx="11.986032"
+       cy="91.245094"
+       rx="19.087799"
+       ry="13.229166"
+       transform="rotate(-36.390879)" />
+    <ellipse
+       transform="matrix(0.82170025,-0.56991991,0.61658194,0.78729074,0,0)"
+       ry="10.122872"
+       rx="14.870532"
+       cy="93.512489"
+       cx="9.2944851"
+       id="ellipse849"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.38604769;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <ellipse
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.42889816;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.71559261, 0.42889815;stroke-dashoffset:0;stroke-opacity:1"
+       id="path836"
+       cx="18.220898"
+       cy="95.936584"
+       rx="10.860018"
+       ry="6.0885987"
+       transform="matrix(0.77491206,-0.63206907,0.55428922,0.83232413,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="89.202377"
+       y="135.2262"
+       id="text854"><tspan
+         sodipodi:role="line"
+         id="tspan862"
+         x="89.202377"
+         y="135.2262">Basin below </tspan><tspan
+         sodipodi:role="line"
+         id="tspan864"
+         x="89.202377"
+         y="145.80952">large </tspan><tspan
+         sodipodi:role="line"
+         x="89.202377"
+         y="156.39287"
+         id="tspan847">depression</tspan><tspan
+         sodipodi:role="line"
+         id="tspan866"
+         x="89.202377"
+         y="166.9762" /></text>
+    <text
+       id="text874"
+       y="106.50002"
+       x="75.217262"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan961"
+         x="75.217262"
+         y="106.50002">Large</tspan><tspan
+         sodipodi:role="line"
+         x="75.217262"
+         y="117.08335"
+         id="tspan845">depression</tspan><tspan
+         sodipodi:role="line"
+         id="tspan963"
+         x="75.217262"
+         y="127.66668" /></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 73.278858,106.01364 54.382596,72.307042"
+       id="path882"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="7.5595188"
+       y="12.383934"
+       id="text890"><tspan
+         sodipodi:role="line"
+         id="tspan908"
+         x="7.5595188"
+         y="12.383934">Basin above</tspan><tspan
+         sodipodi:role="line"
+         id="tspan910"
+         x="7.5595188"
+         y="22.967266">large depression</tspan><tspan
+         sodipodi:role="line"
+         id="tspan912"
+         x="7.5595188"
+         y="33.550598" /></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 98.687583,15.831916 69.516499,54.232187"
+       id="path898"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text906"
+       y="13.89584"
+       x="100.91964"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan900"
+         sodipodi:role="line"
+         x="100.91964"
+         y="13.89584">Basin of</tspan><tspan
+         id="tspan904"
+         sodipodi:role="line"
+         x="100.91964"
+         y="24.479172">large depression</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25.702381,28.636904 54.428572,44.88988"
+       id="path914"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text924"
+       y="198.34824"
+       x="123.97618"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan926"
+         x="123.97618"
+         y="198.34824">Basin outlet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="82.020828"
+       y="75.883934"
+       id="text857"><tspan
+         y="75.883934"
+         x="82.020828"
+         id="tspan851"
+         sodipodi:role="line">Pond in large</tspan><tspan
+         id="tspan853"
+         y="86.46727"
+         x="82.020828"
+         sodipodi:role="line">depression</tspan><tspan
+         y="97.050598"
+         x="82.020828"
+         id="tspan855"
+         sodipodi:role="line" /></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path859"
+       d="M 67.220002,68.596001 81.324642,78.63614"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4.79999998,0.8;stroke-dashoffset:0"
+       d="m 29.146093,84.697294 c 0,0 32.315995,1.084531 43.845237,-8.315475 C 86.083994,65.707127 92.268117,29.512771 92.268117,29.512771 v 0"
+       id="path861"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscc" />
+  </g>
+</svg>
