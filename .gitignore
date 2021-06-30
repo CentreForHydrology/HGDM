@@ -1,3 +1,13 @@
+# Exclude some dir
+Meeting/*
+
+# Outputs of CodeBlocks
+src/*
+#except these
+!src/*.f95
+!src/*.txt
+!src/Makefile
+
 # History files
 .Rhistory
 .Rapp.history
