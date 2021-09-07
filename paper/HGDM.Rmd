@@ -219,12 +219,32 @@ The model PDMROF was developed ....
 ### Discrete depression models
 
 The Pothole Cascade Model (PCM) models the storage of water in discrete
-storages. The scaling relationships among the depression depth, area and
-volume are the same as defined by @hayashiSimpleEquationsRepresent2000.
-The relationships between the area of the a given depression, and the
-area of its basin (the region draining directly to the depression) have
-been shown to be well represented by power functions
-[@shookStorageDynamicsSimulations2013].
+storages. The PCM uses the scaling relationships between the depression
+water depth (h), and area (A~w~) as defined by
+@hayashiSimpleEquationsRepresent2000 in Eq. 1:
+
+$$
+A_w = s h ^ {2/p}, (1)
+$$
+
+where s and p are constants.
+
+The relationships between the area of the a given depression (A~d~), and
+the area of its carchment (the region draining directly to the
+depression) (A~c~) have been shown to be well represented by power
+functions for depressions (including lakes) in the Canadian Prairies
+[@shookStorageDynamicsSimulations2013],as shown in Eq. 2:
+
+$$
+A_{c} = a A_d ^b, (2)
+$$
+
+where a and b are constants.
+
+Because b \< 1, the catchments of large depressions are relatively
+smaller than those of small depressions.
+
+These relationships are also incorporated
 
 The PCM has been incorporated in CRHM (Cold Region Hydrologicalm
 Modelling platform) models of the Canadian Prairies, where it
@@ -309,9 +329,10 @@ produce hysteresis in these relationships.
 
 Other important findings of @shookQuantifyingEffectsPrairie2021 related
 to the phenomenon of gatekeeping, whereby large depressions prevent the
-regions upstream untill they are filled. The term was coined for lakes
-in the Canadian Boreal shield [@phillipsConnectivityRunoffDynamics2011],
-but also applies to depressions in the Prairies.
+regions upstream from contrinuting flows downstream untill they are
+filled. The term was coined for lakes in the Canadian Boreal shield
+[@phillipsConnectivityRunoffDynamics2011], but also applies to
+depressions in the Prairies.
 
 Through many Monte-Carlo simulations,
 @shookQuantifyingEffectsPrairie2021 demonstrated that where the area of
@@ -497,7 +518,7 @@ were used for all of the realizations.
   knitr::include_graphics("figures/filling_emptying_water_areas.pdf")
 ```
 
-The median filling curve lies midaway between the single depression
+The median filling curve lies midway between the single depression
 curves, for values of the fractional depressional storage smaller than
 about 0.5, becoming tangent to the p = 3.33 curve. As the depressions
 fill roughly in their size order (also affected by their basin areas),
@@ -524,23 +545,23 @@ curves is left as an exercise for the reader.
 The Cold Regions Hydrological Modelling platform (CRHM) is a
 physically-based semi-distributed model developed for modelling the
 processes of cold regions, including the Canadian Prairies
-[@pomeroyColdRegionsHydrological2007]. 
+[@pomeroyColdRegionsHydrological2007].
 
 CRHM uses hydrological response units (HRUs) to represent sub-basin
 heterogeneity. HRUs are used to represent the storage in individual
-large depressions and in the sets of small depressions. Because
-of the flexibility of CRHM, there can be any number of these HRUs,
-and they can be arranged in any manner. 
+large depressions and in the sets of small depressions. Because of the
+flexibility of CRHM, there can be any number of these HRUs, and they can
+be arranged in any manner.
 
-One of CRHM's most unusual
-features is a built-in macro language. HGDM was implemented as a
-macro which intercepts the inflows to the small-depression HRU, and
-diverts a fraction of the value to the downstream HRU depending on
-the current contributing fraction. After each addition or removal of
-water from the small depressions, the connected/contributing fraction
-is re-computed. As CRHM does not allow are of the ponded water in 
-a HRU to change with its depth, it was not necessary to implment the
-calculation of the water area as described above.
+One of CRHM's most unusual features is a built-in macro language. HGDM
+was implemented as a macro which intercepts the inflows to the
+small-depression HRU, and diverts a fraction of the value to the
+downstream HRU depending on the current contributing fraction. After
+each addition or removal of water from the small depressions, the
+connected/contributing fraction is re-computed. As CRHM does not allow
+are of the ponded water in a HRU to change with its depth, it was not
+necessary to implment the calculation of the water area as described
+above.
 
 # Data
 
