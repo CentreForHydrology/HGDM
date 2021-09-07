@@ -3,8 +3,8 @@ title: "A Model Agnostic Approach for Variable Basin Contributing Areas"
 classoption: linenumbers
 journal: Water Resources Research
 output:
-  pdf_document: default
   word_document: default
+  pdf_document: default
   rticles::agu_article: default
 affiliations:
 - number: 1
@@ -116,8 +116,8 @@ if (knitr::pandoc_to("docx"))
   PDMROF_cap <- paste(PDMROF_ref, ". ", 
                       PDMROF_cap, sep = "")
 
-basin_schematic_cap <- "Schematic diagram of HGDM basin. Gray areas are dominated by
-small depressions, white areas have no small depressions."
+basin_schematic_cap <- "Schematic diagram of HGDM basin. Gray regions within the basin are dominated by
+small depressions, white regions have no small depressions."
 fig_nums(name = "basin_schematic", caption = basin_schematic_cap)
 basin_schematic_ref <- fig_nums("basin_schematic", display = "cite")
 if (knitr::pandoc_to("docx"))
@@ -241,10 +241,9 @@ $$
 
 where a and b are constants.
 
-Because b \< 1, the catchments of large depressions are relatively
-smaller than those of small depressions.
+Because b \< 1, the catchments of large depressions have smaller ratios
+to the areas of their depressions than those of small depressions.
 
-These relationships are also incorporated
 
 The PCM has been incorporated in CRHM (Cold Region Hydrologicalm
 Modelling platform) models of the Canadian Prairies, where it
@@ -496,10 +495,18 @@ Incorporation of the parametic hystersis model would result in a single
 HRU/GRU being used to represent the water storage. Unfortunately,
 neither model currently simulates the relationship between the volume of
 water stored in a GRU/HRU and its area, which is important for
-calculating the actual evaporation. @shookMemoryEffectsDepressional2011
-showed that the relationship between the fractional water-covered area
-and the fractional water storage is slightly hysteretic.
+calculating the actual evaporation. 
 
+When the PCM was incorporated in CRHM, the use of several HRUs (46) for
+depressional storage reduced the importance of the inability to model
+the water area of each HRU. The large number of small depressional HRUs in the 
+modelsmeant that the water area increased with the addition of water, and decreased
+with the removal of water, as the HRUs were partially-filled and fully
+emptied, respectively.
+
+@shookMemoryEffectsDepressional2011
+showed that the relationship between the fractional water-covered area
+and the fractional water storage is slightly hysteretic. 
 `r copula_area_frac_ref` plots the fractional water cover (fraction of
 the maximum possible water-covered area) vs. the fractional depressional
 storage for simulated filling and emptying of a Prairie basin. The blue
@@ -522,10 +529,10 @@ The median filling curve lies midway between the single depression
 curves, for values of the fractional depressional storage smaller than
 about 0.5, becoming tangent to the p = 3.33 curve. As the depressions
 fill roughly in their size order (also affected by their basin areas),
-the small ponds are filled first, so the mdeian water area filling curve
+the small ponds are filled first, so the median water area filling curve
 will come to resemble that of the large depressions. When the
 depressions are emptied, the ponds in small depressions are
-progressively elimiated. Thus the emptying curve lies below even the
+progressively eliminated. Thus the emptying curve lies below even the
 curve of the single depressions with exponent values of 1.72.
 
 The original graphs of @shookMemoryEffectsDepressional2011 were derived
@@ -560,7 +567,7 @@ downstream HRU depending on the current contributing fraction. After
 each addition or removal of water from the small depressions, the
 connected/contributing fraction is re-computed. As CRHM does not allow
 are of the ponded water in a HRU to change with its depth, it was not
-necessary to implment the calculation of the water area as described
+possible to implement the calculation of the water area as described
 above.
 
 # Data

@@ -16,7 +16,7 @@
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="BPM_schematic_2.svg"
-   inkscape:export-filename="/home/kevin/data/projects/HGDM/paper/HGDM_WRR/HGDM/figures/BPM_schematic_2.png"
+   inkscape:export-filename="/home/kevin/data/projects/HGDM/GitHub/HGDM/paper/figures/BPM_schematic_2.png"
    inkscape:export-xdpi="300.00742"
    inkscape:export-ydpi="300.00742">
   <defs
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3911834"
-     inkscape:cx="257.4033"
+     inkscape:cx="112.20318"
      inkscape:cy="329.76474"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -136,20 +136,20 @@
          y="195.67554">Basin outlet</tspan></text>
     <text
        id="text4535"
-       y="98.02607"
-       x="56.066914"
+       y="97.075142"
+       x="43.514652"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="98.02607"
-         x="56.066914"
+         y="97.075142"
+         x="43.514652"
          id="tspan4531"
-         sodipodi:role="line">Basin of large</tspan><tspan
-         y="105.08163"
-         x="56.066914"
+         sodipodi:role="line">Catchment of</tspan><tspan
+         y="104.1307"
+         x="43.514652"
          sodipodi:role="line"
-         id="tspan4539">depression</tspan><tspan
-         y="112.13718"
-         x="56.066914"
+         id="tspan4539">large depression</tspan><tspan
+         y="111.18626"
+         x="43.514652"
          id="tspan4533"
          sodipodi:role="line" /></text>
     <path
